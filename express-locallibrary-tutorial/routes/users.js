@@ -9,5 +9,9 @@ router.get('/', function(req, res, next) {
   res.send('respond with a resource');
 });
 
+router.get('/cool', function(req, res, next) {
+  res.send('you so cool!');
+});
+
 // this is what allows the file to be imported into app.js
 module.exports = router;
